@@ -809,3 +809,44 @@ a {
     font-size: 27px;
   }
 }
+
+/* Add Donation Form */
+
+.register-container select,
+.register-container textarea {
+  width: 100%;
+  padding: 13px 15px;
+  margin: 8px 0 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  background: #ffffff;
+  outline: none;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.register-container textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.register-container select:focus,
+.register-container textarea:focus,
+.register-container input:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.12);
+}
+
+.register-container input[type="file"] {
+  padding: 12px;
+  background: #f9fafb;
+  cursor: pointer;
+}
+
+.register-container button {
+  width: 100%;
+  margin-top: 10px;
+}
